@@ -7,7 +7,7 @@
 # Algumas imagens do projeto:
 - Nem todas são da tela toda!!!
 
-![exemplo](./assets/amostra1.JPG)
+![exemplo](./amostra1.svg)
 ![exemplo](./assets/amostra2.JPG)
 ![exemplo](./assets/amostra3.JPG)
 ![exemplo](./assets/amostra4.JPG)

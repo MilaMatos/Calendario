@@ -54,6 +54,18 @@ body{
     color: #F7DD43;
 }
 
+h1{
+    
+    margin-bottom: 60px;
+
+    padding: 8px 16px;
+    border: 1px solid #F7DD43;
+    border-radius: 6px;
+
+    font-size: 30px;
+    color: #E1E1E6;
+}
+
 .card h2 span{
     color: #E1E1E6;
     font-size: 14px;

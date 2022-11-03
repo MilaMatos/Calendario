@@ -23,6 +23,7 @@ document.querySelector('#app').innerHTML = `
     <header id="logo">
         <img src="./assets/logo.svg" alt="NLW LOGO">
     </header>
+    <h1>FASE DE GRUPOS</h1>
     <main id="cards">
     ${criarCard("20/11", "DOMINGO", 
     Criarpartida("GRUPOA","qat","ecu","13:00")

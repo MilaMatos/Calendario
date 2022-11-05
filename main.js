@@ -1,9 +1,9 @@
 function Criarpartida(grupo, time1, time2, horario){
     return `
         <li>
-            <img src="./assets/${time1}.svg" />
+            <img src="./assets/${time1}.svg" alt="${time1}" />
             <strong>${horario}</strong>
-            <img src="./assets/${time2}.svg" />
+            <img src="./assets/${time2}.svg" alt="${time2}" />
         </li> 
     `
 }
@@ -26,80 +26,80 @@ document.querySelector('#app').innerHTML = `
     <h1>FASE DE GRUPOS</h1>
     <main id="cards">
     ${criarCard("20/11", "DOMINGO", 
-    Criarpartida("GRUPOA","qat","ecu","13:00")
+    Criarpartida("GRUPOA","Catar","Equador","13:00")
     )}
     ${criarCard("21/11", "SEGUNDA", 
-    Criarpartida("GRUPOB","ing","ira","10:00") +
-    Criarpartida("GRUPOA","sen","hol","13:00") +
-    Criarpartida("GRUPOB","EUA","paG","16:00")
+    Criarpartida("GRUPOB","Inglaterra","Irã","10:00") +
+    Criarpartida("GRUPOA","Senegal","Holanda","13:00") +
+    Criarpartida("GRUPOB","EUA","Gales","16:00")
     )}
     ${criarCard("22/11", "TERÇA", 
-    Criarpartida("GRUPOC","arg","arS","07:00") +
-    Criarpartida("GRUPOD","din","tun","10:00") +
-    Criarpartida("GRUPOC","mex","pol","13:00") + 
-    Criarpartida("GRUPOD","fra","aus","16:00")
+    Criarpartida("GRUPOC","Argentina","Arabia Saudita","07:00") +
+    Criarpartida("GRUPOD","Dinamarca","Tunisia","10:00") +
+    Criarpartida("GRUPOC","Mexico","Polonia","13:00") + 
+    Criarpartida("GRUPOD","França","Australia","16:00")
     )}
     ${criarCard("23/11", "QUARTA", 
-    Criarpartida("GRUPOF","mar","cro","07:00") +
-    Criarpartida("GRUPOE","ale","jap","10:00") +
-    Criarpartida("GRUPOE","esp","coR","13:00") +
-    Criarpartida("GRUPOF","bel","can","16:00") 
+    Criarpartida("GRUPOF","Marrocos","Croacia","07:00") +
+    Criarpartida("GRUPOE","Alemanha","Japão","10:00") +
+    Criarpartida("GRUPOE","Espanha","Costa Rica","13:00") +
+    Criarpartida("GRUPOF","Belgica","Canada","16:00") 
     )}
     ${criarCard("24/11", "QUINTA", 
-    Criarpartida("GRUPOG","sui","cam","07:00") +
-    Criarpartida("GRUPOH","uru","coS","10:00") +
-    Criarpartida("GRUPOH","por","gan","13:00") +
-    Criarpartida("GRUPOG","bra","ser","16:00") 
+    Criarpartida("GRUPOG","Suiça","Camarões","07:00") +
+    Criarpartida("GRUPOH","Uruguai","Coreia do Sul","10:00") +
+    Criarpartida("GRUPOH","Portugal","Gana","13:00") +
+    Criarpartida("GRUPOG","Brasil","Servia","16:00") 
     )}
     ${criarCard("25/11", "SEXTA", 
-    Criarpartida("GRUPOB","paG","ira","07:00") +
-    Criarpartida("GRUPOA","qat","sen","10:00") +
-    Criarpartida("GRUPOA","hol","ecu","13:00") +
-    Criarpartida("GRUPOB","ing","EUA","16:00") 
+    Criarpartida("GRUPOB","Gales","Irã","07:00") +
+    Criarpartida("GRUPOA","Catar","Senegal","10:00") +
+    Criarpartida("GRUPOA","Holanda","Equador","13:00") +
+    Criarpartida("GRUPOB","Inglaterra","EUA","16:00") 
     )}
     ${criarCard("26/11", "SABADO", 
-    Criarpartida("GRUPOD","tun","aus","07:00") +
-    Criarpartida("GRUPOC","pol","arS","10:00") +
-    Criarpartida("GRUPOD","fra","din","13:00") +
-    Criarpartida("GRUPOC","arg","mex","16:00") 
+    Criarpartida("GRUPOD","Tunisia","Australia","07:00") +
+    Criarpartida("GRUPOC","Polonia","Arabia Saudita","10:00") +
+    Criarpartida("GRUPOD","França","Dinamarca","13:00") +
+    Criarpartida("GRUPOC","Argentina","Mexico","16:00") 
     )}
 
     ${criarCard("27/11", "DOMINGO", 
-    Criarpartida("GRUPOE","jap","coR","07:00") +
-    Criarpartida("GRUPOF","bel","mar","10:00") +
-    Criarpartida("GRUPOF","cro","can","13:00") +
-    Criarpartida("GRUPOE","esp","ale","16:00") 
+    Criarpartida("GRUPOE","Japão","Costa Rica","07:00") +
+    Criarpartida("GRUPOF","Belgica","Marrocos","10:00") +
+    Criarpartida("GRUPOF","Croacia","Canada","13:00") +
+    Criarpartida("GRUPOE","Espanha","Alemanha","16:00") 
     )}
     ${criarCard("28/11", "SEGUNDA", 
-    Criarpartida("GRUPOG","cam","ser","07:00") +
-    Criarpartida("GRUPOH","coS","gan","10:00") +
-    Criarpartida("GRUPOG","bra","sui","13:00") +
-    Criarpartida("GRUPOH","por","uru","16:00") 
+    Criarpartida("GRUPOG","Camarões","Servia","07:00") +
+    Criarpartida("GRUPOH","Coreia do Sul","Gana","10:00") +
+    Criarpartida("GRUPOG","Brasil","Suiça","13:00") +
+    Criarpartida("GRUPOH","Portugal","Uruguai","16:00") 
     )}
     ${criarCard("29/11", "TERÇA", 
-    Criarpartida("GRUPOA","ecu","sen","07:00") +
-    Criarpartida("GRUPOA","hol","qat","10:00") +
-    Criarpartida("GRUPOB","ira","EUA","13:00") +
-    Criarpartida("GRUPOB","paG","ing","16:00") 
+    Criarpartida("GRUPOA","Equador","Senegal","07:00") +
+    Criarpartida("GRUPOA","Holanda","Catar","10:00") +
+    Criarpartida("GRUPOB","Irã","EUA","13:00") +
+    Criarpartida("GRUPOB","Gales","Inglaterra","16:00") 
     )}
     ${criarCard("30/11", "QUARTA", 
-    Criarpartida("GRUPOD","tun","fra","07:00") +
-    Criarpartida("GRUPOD","aus","din","10:00") +
-    Criarpartida("GRUPOC","pol","arg","13:00") +
-    Criarpartida("GRUPOC","arS","mex","16:00") 
+    Criarpartida("GRUPOD","Tunisia","França","07:00") +
+    Criarpartida("GRUPOD","Australia","Dinamarca","10:00") +
+    Criarpartida("GRUPOC","Polonia","Argentina","13:00") +
+    Criarpartida("GRUPOC","Arabia Saudita","Mexico","16:00") 
     )}
 
     ${criarCard("01/12", "QUARTA", 
-    Criarpartida("GRUPOF","cro","bel","07:00") +
-    Criarpartida("GRUPOF","can","mar","10:00") +
-    Criarpartida("GRUPOE","jap","esp","13:00") +
-    Criarpartida("GRUPOE","coR","ale","16:00") 
+    Criarpartida("GRUPOF","Croacia","Belgica","07:00") +
+    Criarpartida("GRUPOF","Canada","Marrocos","10:00") +
+    Criarpartida("GRUPOE","Japão","Espanha","13:00") +
+    Criarpartida("GRUPOE","Costa Rica","Alemanha","16:00") 
     )}
     ${criarCard("01/12", "QUARTA", 
-    Criarpartida("GRUPOH","coS","por","07:00") +
-    Criarpartida("GRUPOH","gan","uru","10:00") +
-    Criarpartida("GRUPOG","ser","sui","13:00") +
-    Criarpartida("GRUPOG","cam","bra","16:00") 
+    Criarpartida("GRUPOH","Coreia do Sul","Portugal","07:00") +
+    Criarpartida("GRUPOH","Gana","Uruguai","10:00") +
+    Criarpartida("GRUPOG","Servia","Suiça","13:00") +
+    Criarpartida("GRUPOG","Camarões","Brasil","16:00") 
     )}
     </main>
 `

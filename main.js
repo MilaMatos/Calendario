@@ -1,9 +1,9 @@
 function Criarpartida(grupo, time1, time2, horario){
     return `
         <li>
-            <img src="./assets/${grupo}/${time1}.svg" />
+            <img src="./assets/${time1}.svg" />
             <strong>${horario}</strong>
-            <img src="./assets/${grupo}/${time2}.svg" />
+            <img src="./assets/${time2}.svg" />
         </li> 
     `
 }
